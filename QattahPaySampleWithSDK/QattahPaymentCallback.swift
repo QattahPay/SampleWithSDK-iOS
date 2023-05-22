@@ -8,18 +8,18 @@
 import Foundation
 import qattahpay_ios_sdk
 
-class QattahPaymentCallback: PaymentCallback {
+class QattahPaymentCallback: PaymentCallback, ObservableObject {
     
     func onStarted(paymentId: String) {
-        print(paymentId)
+        print("onStarted: " + paymentId)
     }
     
     func onSuccess(paymentId: String) {
-        print(paymentId)
+        print("onSuccess: " + paymentId)
     }
     
     func onError(errorMessage: String) {
-        print(errorMessage)
+        print("onError: " + errorMessage)
     }
     
     func onCancel() {

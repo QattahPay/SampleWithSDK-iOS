@@ -20,14 +20,21 @@ final class ContentViewModel: ObservableObject {
     
     func payWithQattahPay(amount: Double, currency: Currency, orderId: String, description: String, userEmail: String, userPhoneNumber: String, isSandbox: Bool, onSuccess: @escaping (_ response: QattahResponse) -> Void, onFail: @escaping (_ errorMessage: String) -> Void) {
         
-        let paymentRequest = PaymentRequestBuilder().setAmount(amount).setCurrency(currency).setOrderId(orderId).setDescription(description).setCustomerEmail(userEmail).setCustomerMobileNumber(userPhoneNumber).isSandbox(isSandbox).build()
+        let paymentRequest = PaymentRequestBuilder()
+            .setAmount(amount)
+            .setCurrency(currency)
+            .setOrderId(orderId)
+            .setDescription(description)
+            .setCustomerEmail(userEmail)
+            .setCustomerMobileNumber(userPhoneNumber)
+            .isSandbox(isSandbox)
+            .build()
 
         qattahPay.startPaymentSession(paymentRequest: paymentRequest, onSuccess: { qattahResponse in
             self.qattahResponse = qattahResponse
             onSuccess(qattahResponse)
         }, onFail: { errorMessage in
             print("onFail: " + errorMessage)
-            onFail(errorMessage)
         })
         
     }

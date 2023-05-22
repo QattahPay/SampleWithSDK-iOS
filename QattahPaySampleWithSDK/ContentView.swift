@@ -12,7 +12,6 @@ struct ContentView: View {
     
     // MARK: - Properties
     @ObservedObject var viewModel: ContentViewModel
-    var qattahPaymentCallback = QattahPaymentCallback()
     
     init(viewModel: ContentViewModel) {
         self.viewModel = viewModel
@@ -22,7 +21,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 
-                NavigationLink(destination: QattahWebView(qattahResponse: viewModel.qattahResponse, qattahPaymentCallback: self.qattahPaymentCallback as PaymentCallback), isActive: $viewModel.navigatToQattahWebView) {
+                NavigationLink(destination: QattahWebView(qattahResponse: viewModel.qattahResponse, qattahPaymentCallback: QattahPaymentCallback()), isActive: $viewModel.navigatToQattahWebView) {
                     EmptyView()
                 }
 

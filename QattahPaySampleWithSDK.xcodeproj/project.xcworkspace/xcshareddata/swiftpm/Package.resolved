@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "qattahpay-ios-sdk",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/QattahPay/qattahpay-ios-sdk",
+      "identity" : "qattahpayiossdk",
+      "kind" : "localSourceControl",
+      "location" : "/Users/khlafawi/work/QattahPayment/githubOrg/qattahpayiossdk",
       "state" : {
         "branch" : "main",
-        "revision" : "ccd77b3d6d27fb84a80c9baf0c3ac91bc5e22cc0"
+        "revision" : "ccb913724a9807871ca5df78fb8c5f14235d0596"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/socketio/socket.io-client-swift",
       "state" : {
-        "revision" : "148c30247480cd96a068d38b1594e95a5f7bc1df",
-        "version" : "15.0.0"
+        "revision" : "af5ce97b755d964235348d96f6db5cbdcbe334a5",
+        "version" : "16.0.1"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/daltoniam/Starscream",
       "state" : {
-        "revision" : "a063fda2b8145a231953c20e7a646be254365396",
-        "version" : "3.1.2"
+        "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+        "version" : "4.0.4"
       }
     }
   ],
