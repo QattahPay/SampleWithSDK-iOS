@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "qattahpayiossdk",
-      "kind" : "localSourceControl",
-      "location" : "/Users/khlafawi/work/QattahPayment/githubOrg/qattahpayiossdk",
+      "identity" : "qattahpay-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QattahPay/qattahpay-ios-sdk",
       "state" : {
-        "branch" : "main",
-        "revision" : "ccb913724a9807871ca5df78fb8c5f14235d0596"
+        "revision" : "ccb913724a9807871ca5df78fb8c5f14235d0596",
+        "version" : "1.3.0"
       }
     },
     {
