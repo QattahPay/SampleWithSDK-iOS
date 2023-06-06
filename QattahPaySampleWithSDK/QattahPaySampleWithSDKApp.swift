@@ -12,7 +12,7 @@ import qattahpay_ios_sdk
 struct QattahPaySampleWithSDKApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: ContentViewModel(qattahPay: QattahPaySDK(apiKey: "3|6h23MomrETvHZZ8UpSjr7ThCJ1zxsxIjLkFD4FGP")))
+            ContentView(viewModel: ContentViewModel(qattahPay: QattahPaySDK(apiKey: "<YOUR_API_KEY>")))
         }
     }
 }
