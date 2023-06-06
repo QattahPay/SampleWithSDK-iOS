@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		536BDAE42A2FE5E20017DB82 /* qattahpay-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 536BDAE32A2FE5E20017DB82 /* qattahpay-ios-sdk */; };
 		53BC03532A0C6EC900DC6EB5 /* QattahPaySampleWithSDKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC03522A0C6EC900DC6EB5 /* QattahPaySampleWithSDKApp.swift */; };
 		53BC03552A0C6EC900DC6EB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC03542A0C6EC900DC6EB5 /* ContentView.swift */; };
 		53BC03572A0C6ECA00DC6EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BC03562A0C6ECA00DC6EB5 /* Assets.xcassets */; };
 		53BC035A2A0C6ECA00DC6EB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BC03592A0C6ECA00DC6EB5 /* Preview Assets.xcassets */; };
 		53BC038A2A0E792C00DC6EB5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC03892A0E792C00DC6EB5 /* ContentViewModel.swift */; };
 		53BC038C2A0E796600DC6EB5 /* QattahPaymentCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC038B2A0E796600DC6EB5 /* QattahPaymentCallback.swift */; };
-		53EC8A9B2A1BB136003DABF3 /* qattahpay-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 53EC8A9A2A1BB136003DABF3 /* qattahpay-ios-sdk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		536B5C3C2A1CD0BD006CFADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		53BC034F2A0C6EC900DC6EB5 /* QattahPaySampleWithSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QattahPaySampleWithSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BC03522A0C6EC900DC6EB5 /* QattahPaySampleWithSDKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QattahPaySampleWithSDKApp.swift; sourceTree = "<group>"; };
 		53BC03542A0C6EC900DC6EB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53EC8A9B2A1BB136003DABF3 /* qattahpay-ios-sdk in Frameworks */,
+				536BDAE42A2FE5E20017DB82 /* qattahpay-ios-sdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +58,7 @@
 		53BC03512A0C6EC900DC6EB5 /* QattahPaySampleWithSDK */ = {
 			isa = PBXGroup;
 			children = (
+				536B5C3C2A1CD0BD006CFADC /* Info.plist */,
 				53BC03522A0C6EC900DC6EB5 /* QattahPaySampleWithSDKApp.swift */,
 				53BC03542A0C6EC900DC6EB5 /* ContentView.swift */,
 				53BC03562A0C6ECA00DC6EB5 /* Assets.xcassets */,
@@ -92,7 +94,7 @@
 			);
 			name = QattahPaySampleWithSDK;
 			packageProductDependencies = (
-				53EC8A9A2A1BB136003DABF3 /* qattahpay-ios-sdk */,
+				536BDAE32A2FE5E20017DB82 /* qattahpay-ios-sdk */,
 			);
 			productName = QattahPaySampleWithSDK;
 			productReference = 53BC034F2A0C6EC900DC6EB5 /* QattahPaySampleWithSDK.app */;
@@ -123,7 +125,7 @@
 			);
 			mainGroup = 53BC03462A0C6EC900DC6EB5;
 			packageReferences = (
-				53EC8A992A1BB136003DABF3 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */,
+				536BDAE22A2FE5E20017DB82 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */,
 			);
 			productRefGroup = 53BC03502A0C6EC900DC6EB5 /* Products */;
 			projectDirPath = "";
@@ -286,6 +288,7 @@
 				DEVELOPMENT_TEAM = 6P4JNMH2KY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QattahPaySampleWithSDK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +318,7 @@
 				DEVELOPMENT_TEAM = 6P4JNMH2KY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QattahPaySampleWithSDK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,20 +361,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		53EC8A992A1BB136003DABF3 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */ = {
+		536BDAE22A2FE5E20017DB82 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/QattahPay/qattahpay-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.3.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		53EC8A9A2A1BB136003DABF3 /* qattahpay-ios-sdk */ = {
+		536BDAE32A2FE5E20017DB82 /* qattahpay-ios-sdk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 53EC8A992A1BB136003DABF3 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */;
+			package = 536BDAE22A2FE5E20017DB82 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */;
 			productName = "qattahpay-ios-sdk";
 		};
 /* End XCSwiftPackageProductDependency section */

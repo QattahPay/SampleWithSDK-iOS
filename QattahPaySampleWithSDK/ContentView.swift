@@ -27,7 +27,7 @@ struct ContentView: View {
 
                 Button(action: {
                     
-                    viewModel.payWithQattahPay(amount: 120, currency: Currency.SAR, orderId: "123", description: "order", userEmail: "user@email.com", userPhoneNumber: "0501234567", isSandbox: true, onSuccess: {
+                    viewModel.payWithQattahPay(amount: 120, currency: Currency.SAR, orderId: "123", description: "order", userEmail: "user@email.com", userPhoneNumber: "0501234567", language: Language.EN, theme: Theme.DARK, isSandbox: true, onSuccess: {
                         qattahResponse in
                         viewModel.navigatToQattahWebView = true
                     }, onFail: {

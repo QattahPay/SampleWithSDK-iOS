@@ -18,7 +18,7 @@ final class ContentViewModel: ObservableObject {
         self.qattahPay = qattahPay
     }
     
-    func payWithQattahPay(amount: Double, currency: Currency, orderId: String, description: String, userEmail: String, userPhoneNumber: String, isSandbox: Bool, onSuccess: @escaping (_ response: QattahResponse) -> Void, onFail: @escaping (_ errorMessage: String) -> Void) {
+    func payWithQattahPay(amount: Double, currency: Currency, orderId: String, description: String, userEmail: String, userPhoneNumber: String, language: Language, theme: Theme, isSandbox: Bool, onSuccess: @escaping (_ response: QattahResponse) -> Void, onFail: @escaping (_ errorMessage: String) -> Void) {
         
         let paymentRequest = PaymentRequestBuilder()
             .setAmount(amount)
@@ -27,6 +27,8 @@ final class ContentViewModel: ObservableObject {
             .setDescription(description)
             .setCustomerEmail(userEmail)
             .setCustomerMobileNumber(userPhoneNumber)
+            .setLanguage(language)
+            .setTheme(theme)
             .isSandbox(isSandbox)
             .build()
 
