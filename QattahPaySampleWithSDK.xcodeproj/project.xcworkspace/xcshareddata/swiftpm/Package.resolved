@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/QattahPay/qattahpay-ios-sdk",
       "state" : {
-        "revision" : "b92aae74a8ccc3a68d810b9831dac1366121bb0b",
-        "version" : "1.5.1"
+        "revision" : "b586b4a200cd8539b38e3c2a7a496424d57cc03a",
+        "version" : "1.5.2"
       }
     },
     {
