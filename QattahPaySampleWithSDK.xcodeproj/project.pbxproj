@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5351F7D42A66168D0007A769 /* qattahpay-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 5351F7D32A66168D0007A769 /* qattahpay-ios-sdk */; };
+		539E21732AAE47FD000A15AD /* qattahpay-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 539E21722AAE47FD000A15AD /* qattahpay-ios-sdk */; };
 		53BC03532A0C6EC900DC6EB5 /* QattahPaySampleWithSDKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC03522A0C6EC900DC6EB5 /* QattahPaySampleWithSDKApp.swift */; };
 		53BC03552A0C6EC900DC6EB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC03542A0C6EC900DC6EB5 /* ContentView.swift */; };
 		53BC03572A0C6ECA00DC6EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BC03562A0C6ECA00DC6EB5 /* Assets.xcassets */; };
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5351F7D42A66168D0007A769 /* qattahpay-ios-sdk in Frameworks */,
+				539E21732AAE47FD000A15AD /* qattahpay-ios-sdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = QattahPaySampleWithSDK;
 			packageProductDependencies = (
-				5351F7D32A66168D0007A769 /* qattahpay-ios-sdk */,
+				539E21722AAE47FD000A15AD /* qattahpay-ios-sdk */,
 			);
 			productName = QattahPaySampleWithSDK;
 			productReference = 53BC034F2A0C6EC900DC6EB5 /* QattahPaySampleWithSDK.app */;
@@ -125,7 +125,7 @@
 			);
 			mainGroup = 53BC03462A0C6EC900DC6EB5;
 			packageReferences = (
-				5351F7D22A66168D0007A769 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */,
+				539E21712AAE47FD000A15AD /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */,
 			);
 			productRefGroup = 53BC03502A0C6EC900DC6EB5 /* Products */;
 			projectDirPath = "";
@@ -361,20 +361,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5351F7D22A66168D0007A769 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */ = {
+		539E21712AAE47FD000A15AD /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/QattahPay/qattahpay-ios-sdk";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.5.2;
+				minimumVersion = 1.5.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5351F7D32A66168D0007A769 /* qattahpay-ios-sdk */ = {
+		539E21722AAE47FD000A15AD /* qattahpay-ios-sdk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5351F7D22A66168D0007A769 /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */;
+			package = 539E21712AAE47FD000A15AD /* XCRemoteSwiftPackageReference "qattahpay-ios-sdk" */;
 			productName = "qattahpay-ios-sdk";
 		};
 /* End XCSwiftPackageProductDependency section */

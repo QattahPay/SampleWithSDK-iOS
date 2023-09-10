@@ -3,4 +3,86 @@
    uuid = "8A606038-D098-4789-9D3F-9926849C5F7A"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "811E483E-B248-4CB0-85E8-4BB7CD658CB1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/QattahPaySampleWithSDK-fqrimhaldvdexzfloltyvxmueiuw/SourcePackages/checkouts/qattahpayiossdk/Sources/QattahWebView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "init(qattahResponse:qattahPaymentCallback:onDismiss:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "811E483E-B248-4CB0-85E8-4BB7CD658CB1 - 428885298df32e59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "qattahpay_ios_sdk.CustomWebView.init(qattahResponse: Swift.Optional&lt;qattahpay_ios_sdk.QattahResponse&gt;, qattahPaymentCallback: qattahpay_ios_sdk.PaymentCallback, onDismiss: ()) -&gt; qattahpay_ios_sdk.CustomWebView"
+                  moduleName = "QattahPaySampleWithSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khlafawi/Library/Developer/Xcode/DerivedData/QattahPaySampleWithSDK-fqrimhaldvdexzfloltyvxmueiuw/SourcePackages/checkouts/qattahpayiossdk/Sources/QattahWebView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "811E483E-B248-4CB0-85E8-4BB7CD658CB1 - 428885298df32e59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "qattahpay_ios_sdk.CustomWebView.init(qattahResponse: Swift.Optional&lt;qattahpay_ios_sdk.QattahResponse&gt;, qattahPaymentCallback: qattahpay_ios_sdk.PaymentCallback, onDismiss: ()) -&gt; qattahpay_ios_sdk.CustomWebView"
+                  moduleName = "QattahPaySampleWithSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khlafawi/Library/Developer/Xcode/DerivedData/QattahPaySampleWithSDK-fqrimhaldvdexzfloltyvxmueiuw/SourcePackages/checkouts/qattahpayiossdk/Sources/QattahWebView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "760">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD81AFDA-96BB-46CA-9C42-0B9DF0039550"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/QattahPaySampleWithSDK-fqrimhaldvdexzfloltyvxmueiuw/SourcePackages/checkouts/qattahpayiossdk/Sources/QattahWebView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "init(qattahResponse:qattahPaymentCallback:onDismiss:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "621B6C18-7223-4120-AA77-96F00C441A38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/QattahPaySampleWithSDK-fqrimhaldvdexzfloltyvxmueiuw/SourcePackages/checkouts/qattahpayiossdk/Sources/QattahWebView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "init(qattahResponse:qattahPaymentCallback:onDismiss:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

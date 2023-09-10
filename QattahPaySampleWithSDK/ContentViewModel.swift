@@ -11,7 +11,7 @@ import qattahpay_ios_sdk
 final class ContentViewModel: ObservableObject {
     
     private var qattahPay: QattahPaySDK
-    @Published var qattahResponse: QattahResponse? = nil
+    @Published var qattahWebView: QattahWebView? = nil
     @Published var navigatToQattahWebView = false
     
     init(qattahPay: QattahPaySDK) {
@@ -33,7 +33,6 @@ final class ContentViewModel: ObservableObject {
             .build()
 
         qattahPay.startPaymentSession(paymentRequest: paymentRequest, onSuccess: { qattahResponse in
-            self.qattahResponse = qattahResponse
             onSuccess(qattahResponse)
         }, onFail: { errorMessage in
             print("onFail: " + errorMessage)
